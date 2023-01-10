@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".CraftActivity">
+
+    <ImageView
+        android:id="@+id/home_image"
+        android:layout_width="34dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="26dp"
+        android:src="@drawable/home"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:text="@string/craft"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/craft_one_select"
+        android:layout_width="120dp"
+        android:layout_height="161dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="121dp"
+        android:src="@drawable/craft_box_one"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/home_image" />
+
+    <ImageView
+        android:id="@+id/craft_two_Select"
+        android:layout_width="120dp"
+        android:layout_height="161dp"
+        android:layout_marginTop="184dp"
+        android:layout_marginEnd="54dp"
+        android:src="@drawable/craft_box_two"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/craft_three_select"
+        android:layout_width="120dp"
+        android:layout_height="161dp"
+        android:src="@drawable/craft_box_three"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView7" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="171dp"
+        android:layout_height="42dp"
+        android:src="@drawable/craft_between"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/choose_select"
+        android:layout_width="80dp"
+        android:layout_height="28dp"
+        android:text="@string/choose"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/craft_one_select"
+        app:layout_constraintEnd_toEndOf="@+id/craft_one_select"
+        app:layout_constraintStart_toStartOf="@+id/craft_one_select"
+        app:layout_constraintTop_toTopOf="@+id/craft_one_select" />
+
+    <TextView
+        android:id="@+id/choose_select_two"
+        android:layout_width="80dp"
+        android:layout_height="28dp"
+        android:text="@string/choose_two"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/craft_two_Select"
+        app:layout_constraintEnd_toEndOf="@+id/craft_two_Select"
+        app:layout_constraintStart_toStartOf="@+id/craft_two_Select"
+        app:layout_constraintTop_toTopOf="@+id/craft_two_Select" />
+
+    <TextView
+        android:id="@+id/start_item"
+        android:layout_width="65dp"
+        android:layout_height="28dp"
+        android:text="@string/start"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/craft_three_select" />
+
+    <ImageView
+        android:id="@+id/image_chose_yellowcard"
+        android:layout_width="104dp"
+        android:layout_height="148dp"
+        android:src="@drawable/yellowcard"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@+id/craft_one_select"
+        app:layout_constraintEnd_toEndOf="@+id/craft_one_select"
+        app:layout_constraintStart_toStartOf="@+id/craft_one_select"
+        app:layout_constraintTop_toTopOf="@+id/craft_one_select" />
+
+    <TextView
+        android:id="@+id/txt_choose_name"
+        android:layout_width="49dp"
+        android:layout_height="9dp"
+        android:text="TextView"
+        android:visibility="gone"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="5sp"
+        app:layout_constraintBottom_toBottomOf="@+id/image_chose_yellowcard"
+        app:layout_constraintEnd_toEndOf="@+id/craft_one_select"
+        app:layout_constraintStart_toStartOf="@+id/craft_one_select"
+        app:layout_constraintTop_toTopOf="@+id/image_chose_yellowcard"
+        app:layout_constraintVertical_bias="0.086" />
+
+    <TextView
+        android:id="@+id/txt_choose_star"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_marginEnd="32dp"
+        android:visibility="gone"
+        android:text="5"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="8sp"
+        app:layout_constraintBottom_toBottomOf="@+id/image_chose_yellowcard"
+        app:layout_constraintEnd_toEndOf="@+id/image_chose_yellowcard"
+        app:layout_constraintHorizontal_bias="0.258"
+        app:layout_constraintStart_toStartOf="@+id/image_chose_yellowcard"
+        app:layout_constraintTop_toBottomOf="@+id/txt_choose_ford"
+        app:layout_constraintVertical_bias="0.476" />
+
+    <TextView
+        android:id="@+id/txt_choose_match"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:text="5"
+        android:visibility="gone"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="8sp"
+        app:layout_constraintBottom_toBottomOf="@+id/image_chose_yellowcard"
+        app:layout_constraintEnd_toEndOf="@+id/image_chose_yellowcard"
+        app:layout_constraintHorizontal_bias="0.089"
+        app:layout_constraintStart_toStartOf="@+id/image_chose_yellowcard"
+        app:layout_constraintTop_toBottomOf="@+id/txt_choose_name"
+        app:layout_constraintVertical_bias="0.357" />
+
+    <TextView
+        android:id="@+id/txt_choose_ford"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:text="5"
+        android:textAlignment="center"
+        android:visibility="gone"
+        android:textColor="@color/white"
+        android:textSize="8sp"
+        app:layout_constraintBottom_toBottomOf="@+id/image_chose_yellowcard"
+        app:layout_constraintEnd_toEndOf="@+id/image_chose_yellowcard"
+        app:layout_constraintHorizontal_bias="0.089"
+        app:layout_constraintStart_toStartOf="@+id/image_chose_yellowcard"
+        app:layout_constraintTop_toBottomOf="@+id/txt_choose_match"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imageview_choose_one"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:src="@color/white"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@+id/image_chose_yellowcard"
+        app:layout_constraintEnd_toEndOf="@+id/image_chose_yellowcard"
+        app:layout_constraintHorizontal_bias="0.796"
+        app:layout_constraintStart_toStartOf="@+id/image_chose_yellowcard"
+        app:layout_constraintTop_toBottomOf="@+id/txt_choose_name"
+        app:layout_constraintVertical_bias="0.28" />
+
+    <ImageView
+        android:id="@+id/image_choose_blue"
+        android:layout_width="104dp"
+        android:layout_height="148dp"
+        android:visibility="gone"
+        android:src="@drawable/bluecard"
+        app:layout_constraintBottom_toBottomOf="@+id/craft_two_Select"
+        app:layout_constraintEnd_toEndOf="@+id/craft_two_Select"
+        app:layout_constraintStart_toStartOf="@+id/craft_two_Select"
+        app:layout_constraintTop_toTopOf="@+id/craft_two_Select" />
+
+    <TextView
+        android:id="@+id/txt_choose_name_two"
+        android:layout_width="49dp"
+        android:layout_height="9dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:visibility="gone"
+        android:textColor="@color/white"
+        android:textSize="5sp"
+        app:layout_constraintBottom_toBottomOf="@+id/image_choose_blue"
+        app:layout_constraintEnd_toEndOf="@+id/craft_two_Select"
+        app:layout_constraintStart_toStartOf="@+id/craft_two_Select"
+        app:layout_constraintTop_toTopOf="@+id/image_choose_blue"
+        app:layout_constraintVertical_bias="0.086" />
+
+    <TextView
+        android:id="@+id/txt_choose_star_two"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:text="5"
+        android:visibility="gone"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="8sp"
+        app:layout_constraintBottom_toBottomOf="@+id/image_choose_blue"
+        app:layout_constraintEnd_toEndOf="@+id/image_choose_blue"
+        app:layout_constraintHorizontal_bias="0.224"
+        app:layout_constraintStart_toStartOf="@+id/image_choose_blue"
+        app:layout_constraintTop_toBottomOf="@+id/txt_choose_ford_two"
+        app:layout_constraintVertical_bias="0.463" />
+
+    <TextView
+        android:id="@+id/txt_choose_match_two"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:visibility="gone"
+        android:layout_marginEnd="32dp"
+        android:text="5"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="8sp"
+        app:layout_constraintBottom_toBottomOf="@+id/image_choose_blue"
+        app:layout_constraintEnd_toEndOf="@+id/image_choose_blue"
+        app:layout_constraintHorizontal_bias="0.146"
+        app:layout_constraintStart_toStartOf="@+id/image_choose_blue"
+        app:layout_constraintTop_toBottomOf="@+id/txt_choose_name_two"
+        app:layout_constraintVertical_bias="0.357" />
+
+    <TextView
+        android:id="@+id/txt_choose_ford_two"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_marginEnd="32dp"
+        android:text="5"
+        android:visibility="gone"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="8sp"
+        app:layout_constraintBottom_toBottomOf="@+id/image_choose_blue"
+        app:layout_constraintEnd_toEndOf="@+id/image_choose_blue"
+        app:layout_constraintHorizontal_bias="0.146"
+        app:layout_constraintStart_toStartOf="@+id/image_choose_blue"
+        app:layout_constraintTop_toBottomOf="@+id/txt_choose_name_two"
+        app:layout_constraintVertical_bias="0.491" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imageview_choose_two"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:src="@color/white"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@+id/image_choose_blue"
+        app:layout_constraintEnd_toEndOf="@+id/image_choose_blue"
+        app:layout_constraintHorizontal_bias="0.796"
+        app:layout_constraintStart_toStartOf="@+id/craft_two_Select"
+        app:layout_constraintTop_toBottomOf="@+id/txt_choose_name_two"
+        app:layout_constraintVertical_bias="0.28" />
+
+
+    <ImageView
+        android:id="@+id/choose_image_green"
+        android:layout_width="104dp"
+        android:layout_height="148dp"
+        android:src="@drawable/greencard"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@+id/craft_three_select"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/craft_three_select" />
+
+    <TextView
+        android:id="@+id/txt_choose_name_two_random"
+        android:layout_width="49dp"
+        android:layout_height="9dp"
+        android:text="TextView"
+        android:textAlignment="center"
+
+        android:textColor="@color/white"
+        android:textSize="5sp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@+id/choose_image_green"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/choose_image_green"
+        app:layout_constraintVertical_bias="0.079" />
+
+    <TextView
+        android:id="@+id/txt_choose_star_two_random"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_marginEnd="8dp"
+
+        android:text="3"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="8sp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@+id/choose_image_green"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.436"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_choose_ford_random" />
+
+    <TextView
+        android:id="@+id/txt_choose_match_two_random"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+
+        android:layout_marginEnd="16dp"
+        android:text="5"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="8sp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@+id/choose_image_green"
+        app:layout_constraintEnd_toEndOf="@+id/choose_image_green"
+        app:layout_constraintHorizontal_bias="0.204"
+        app:layout_constraintStart_toStartOf="@+id/craft_three_select"
+        app:layout_constraintTop_toTopOf="@+id/choose_image_green"
+        app:layout_constraintVertical_bias="0.443" />
+
+    <TextView
+        android:id="@+id/txt_choose_ford_random"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_marginTop="3dp"
+
+        android:text="5"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="8sp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@+id/craft_three_select"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.409"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_choose_match_two_random"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/random_imageview_Card_choose"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:src="@color/white"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@+id/choose_image_green"
+        app:layout_constraintEnd_toEndOf="@+id/choose_image_green"
+        app:layout_constraintHorizontal_bias="0.796"
+        app:layout_constraintStart_toStartOf="@+id/choose_image_green"
+        app:layout_constraintTop_toBottomOf="@+id/txt_choose_name_two_random"
+        app:layout_constraintVertical_bias="0.28" />
+
+    <TextView
+        android:id="@+id/choose_confirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/confirm"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="italic"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/craft_three_select" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

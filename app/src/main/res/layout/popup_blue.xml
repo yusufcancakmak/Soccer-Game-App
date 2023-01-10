@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center">
+
+    <ImageView
+        android:id="@+id/blue"
+        android:layout_width="321dp"
+        android:layout_height="446dp"
+        android:src="@drawable/bluecard"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+
+        android:id="@+id/txt_name_popup_blue"
+        android:layout_width="151dp"
+        android:layout_height="16dp"
+        android:layout_marginStart="92dp"
+        android:text="name"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="14dp"
+        app:layout_constraintBottom_toBottomOf="@+id/blue"
+        app:layout_constraintStart_toStartOf="@+id/blue"
+        app:layout_constraintTop_toTopOf="@+id/blue"
+        app:layout_constraintVertical_bias="0.072" />
+
+    <TextView
+        android:id="@+id/txt_match_popup_blue"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="32dp"
+        android:text="8"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/blue"
+        app:layout_constraintStart_toStartOf="@+id/blue"
+        app:layout_constraintTop_toBottomOf="@+id/txt_name_popup_blue"
+        app:layout_constraintVertical_bias="0.362" />
+
+    <TextView
+        android:id="@+id/txt_forth_popup_blue"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="32dp"
+        android:text="8"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/blue"
+        app:layout_constraintStart_toStartOf="@+id/blue"
+        app:layout_constraintTop_toBottomOf="@+id/txt_match_popup_blue"
+        app:layout_constraintVertical_bias="0.076" />
+
+    <TextView
+        android:id="@+id/textView7_blue"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="64dp"
+        android:text="4"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/blue"
+        app:layout_constraintStart_toStartOf="@+id/blue"
+        app:layout_constraintTop_toBottomOf="@+id/txt_forth_popup_blue"
+        app:layout_constraintVertical_bias="0.503" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imageview_popup_blue"
+        android:layout_width="135dp"
+        android:layout_height="135dp"
+        android:src="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/blue"
+        app:layout_constraintEnd_toEndOf="@+id/blue"
+        app:layout_constraintHorizontal_bias="0.817"
+        app:layout_constraintStart_toStartOf="@+id/blue"
+        app:layout_constraintTop_toBottomOf="@+id/txt_name_popup_blue"
+        app:layout_constraintVertical_bias="0.253" />
+
+    <ImageView
+        android:id="@+id/popup_close_blue"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="264dp"
+        android:src="@drawable/vector_close"
+        app:layout_constraintStart_toStartOf="@+id/blue"
+        app:layout_constraintTop_toTopOf="@+id/blue" />
+</androidx.constraintlayout.widget.ConstraintLayout>

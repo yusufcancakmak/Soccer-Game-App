@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background"
+    android:textAlignment="center">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:background="@drawable/backgroundvers"
+        android:padding="10dp">
+
+
+        <ImageView
+            android:id="@+id/yellow_card_fav"
+            android:layout_width="104dp"
+            android:layout_height="142dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/yellowcard"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </ImageView>
+
+
+        <TextView
+            android:id="@+id/txt_name"
+            android:layout_width="42dp"
+            android:layout_height="6dp"
+            android:layout_marginTop="8dp"
+            android:text="name"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="5sp"
+            app:layout_constraintEnd_toEndOf="@+id/yellow_card_fav"
+            app:layout_constraintHorizontal_bias="0.483"
+            app:layout_constraintStart_toStartOf="@+id/yellow_card_fav"
+            app:layout_constraintTop_toTopOf="@+id/yellow_card_fav" />
+
+        <ImageView
+            android:id="@+id/green_card_fav"
+            android:layout_width="104dp"
+            android:layout_height="142dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/greencard"
+            app:layout_constraintEnd_toStartOf="@+id/blue_card_fav"
+            app:layout_constraintStart_toEndOf="@+id/yellow_card_fav"
+            app:layout_constraintTop_toTopOf="parent"></ImageView>
+
+        <TextView
+            android:id="@+id/txtName2"
+            android:layout_width="42dp"
+            android:layout_height="6dp"
+            android:layout_marginTop="8dp"
+            android:text="name"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="5dp"
+            app:layout_constraintEnd_toEndOf="@+id/green_card_fav"
+            app:layout_constraintHorizontal_bias="0.483"
+            app:layout_constraintStart_toStartOf="@+id/green_card_fav"
+            app:layout_constraintTop_toTopOf="@+id/green_card_fav" />
+
+        <ImageView
+            android:id="@+id/blue_card_fav"
+            android:layout_width="104dp"
+            android:layout_height="142dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:src="@drawable/bluecard"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/green_card_fav"
+            app:layout_constraintTop_toTopOf="parent"></ImageView>
+
+        <TextView
+            android:id="@+id/txtName3"
+            android:layout_width="42dp"
+            android:layout_height="6dp"
+            android:layout_marginTop="8dp"
+            android:text="name"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="5dp"
+            app:layout_constraintEnd_toEndOf="@+id/blue_card_fav"
+            app:layout_constraintStart_toStartOf="@+id/blue_card_fav"
+            app:layout_constraintTop_toTopOf="@+id/blue_card_fav" />
+
+        <TextView
+            android:id="@+id/txt_match"
+            android:layout_width="14dp"
+            android:layout_height="13dp"
+            android:layout_marginTop="56dp"
+            android:text="8"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="8sp"
+            app:layout_constraintEnd_toEndOf="@+id/yellow_card_fav"
+            app:layout_constraintHorizontal_bias="0.088"
+            app:layout_constraintStart_toStartOf="@+id/yellow_card_fav"
+            app:layout_constraintTop_toTopOf="@+id/yellow_card_fav" />
+
+        <TextView
+            android:id="@+id/txtMatch2"
+            android:layout_width="14dp"
+            android:layout_height="13dp"
+            android:layout_marginTop="56dp"
+            android:text="8"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="8sp"
+            app:layout_constraintEnd_toEndOf="@+id/green_card_fav"
+            app:layout_constraintHorizontal_bias="0.111"
+            app:layout_constraintStart_toStartOf="@+id/green_card_fav"
+            app:layout_constraintTop_toTopOf="@+id/green_card_fav" />
+
+        <TextView
+            android:id="@+id/txtMatchTwo"
+            android:layout_width="14dp"
+            android:layout_height="13dp"
+            android:layout_marginTop="72dp"
+            android:text="8"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="8sp"
+            app:layout_constraintEnd_toEndOf="@+id/green_card_fav"
+            app:layout_constraintHorizontal_bias="0.111"
+            app:layout_constraintStart_toStartOf="@+id/green_card_fav"
+            app:layout_constraintTop_toTopOf="@+id/green_card_fav" />
+
+        <TextView
+            android:id="@+id/txt_star_two"
+            android:layout_width="14dp"
+            android:layout_height="13dp"
+            android:layout_marginTop="108dp"
+            android:text="3"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="8sp"
+            app:layout_constraintEnd_toEndOf="@+id/green_card_fav"
+            app:layout_constraintHorizontal_bias="0.188"
+            app:layout_constraintStart_toStartOf="@+id/green_card_fav"
+            app:layout_constraintTop_toTopOf="@+id/green_card_fav" />
+
+        <TextView
+            android:id="@+id/txtMatchThree"
+            android:layout_width="14dp"
+            android:layout_height="13dp"
+            android:text="8"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="8sp"
+            app:layout_constraintBottom_toBottomOf="@+id/blue_card_fav"
+            app:layout_constraintEnd_toEndOf="@+id/blue_card_fav"
+            app:layout_constraintHorizontal_bias="0.111"
+            app:layout_constraintStart_toStartOf="@+id/blue_card_fav"
+            app:layout_constraintTop_toTopOf="@+id/blue_card_fav"
+            app:layout_constraintVertical_bias="0.558" />
+
+        <TextView
+            android:id="@+id/txtMatchThree3"
+            android:layout_width="14dp"
+            android:layout_height="13dp"
+            android:text="8"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="8sp"
+            app:layout_constraintBottom_toBottomOf="@+id/blue_card_fav"
+            app:layout_constraintEnd_toEndOf="@+id/blue_card_fav"
+            app:layout_constraintHorizontal_bias="0.111"
+            app:layout_constraintStart_toStartOf="@+id/blue_card_fav"
+            app:layout_constraintTop_toTopOf="@+id/blue_card_fav"
+            app:layout_constraintVertical_bias="0.457" />
+
+        <TextView
+            android:id="@+id/txt_star_three"
+            android:layout_width="14dp"
+            android:layout_height="13dp"
+            android:text="4"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="8sp"
+            app:layout_constraintBottom_toBottomOf="@+id/blue_card_fav"
+            app:layout_constraintEnd_toEndOf="@+id/blue_card_fav"
+            app:layout_constraintHorizontal_bias="0.188"
+            app:layout_constraintStart_toStartOf="@+id/blue_card_fav"
+            app:layout_constraintTop_toTopOf="@+id/blue_card_fav"
+            app:layout_constraintVertical_bias="0.837" />
+
+        <TextView
+            android:id="@+id/txtMatchOne"
+            android:layout_width="14dp"
+            android:layout_height="13dp"
+            android:text="8"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="8sp"
+            app:layout_constraintBottom_toBottomOf="@+id/yellow_card_fav"
+            app:layout_constraintEnd_toEndOf="@+id/yellow_card_fav"
+            app:layout_constraintHorizontal_bias="0.088"
+            app:layout_constraintStart_toStartOf="@+id/yellow_card_fav"
+            app:layout_constraintTop_toTopOf="@+id/yellow_card_fav"
+            app:layout_constraintVertical_bias="0.558" />
+
+        <TextView
+            android:id="@+id/txt_Star_one"
+            android:layout_width="14dp"
+            android:layout_height="13dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="8sp"
+            app:layout_constraintBottom_toBottomOf="@+id/yellow_card_fav"
+            app:layout_constraintEnd_toEndOf="@+id/yellow_card_fav"
+            app:layout_constraintHorizontal_bias="0.177"
+            app:layout_constraintStart_toStartOf="@+id/yellow_card_fav"
+            app:layout_constraintTop_toBottomOf="@+id/txt_name"
+            app:layout_constraintVertical_bias="0.817" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imageViewPlayer"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginEnd="8dp"
+            app:civ_border_color="#FF000000"
+            app:civ_border_width="2dp"
+            app:layout_constraintBottom_toBottomOf="@+id/yellow_card_fav"
+            app:layout_constraintEnd_toEndOf="@+id/yellow_card_fav"
+            app:layout_constraintTop_toTopOf="@+id/yellow_card_fav"
+            app:layout_constraintVertical_bias="0.493"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imageViewPlayer2"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginEnd="8dp"
+            app:civ_border_color="#FF000000"
+            app:civ_border_width="2dp"
+            app:layout_constraintBottom_toBottomOf="@+id/green_card_fav"
+            app:layout_constraintEnd_toEndOf="@+id/green_card_fav"
+            app:layout_constraintHorizontal_bias="0.466"
+
+            app:layout_constraintTop_toTopOf="@+id/green_card_fav"
+            app:layout_constraintVertical_bias="0.506"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imageViewPlayer3"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginEnd="8dp"
+            app:civ_border_color="#FF000000"
+            app:civ_border_width="2dp"
+            app:layout_constraintBottom_toBottomOf="@+id/blue_card_fav"
+            app:layout_constraintEnd_toEndOf="@+id/blue_card_fav"
+            app:layout_constraintTop_toTopOf="@+id/blue_card_fav"
+            app:layout_constraintVertical_bias="0.493"
+            tools:srcCompat="@tools:sample/avatars" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.cardview.widget.CardView>

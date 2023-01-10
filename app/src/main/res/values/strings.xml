@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Footstone</string>
+    <string name="your_collections">YOUR COLLECTIONS</string>
+    <string name="tap_here">TAP HERE</string>
+    <string name="choose">CHOOSE</string>
+    <string name="start">START</string>
+    <string name="craft">Craft</string>
+    <string name="show_m_ss_ng">SHOW MİSSİNG</string>
+    <string name="Information">Collecting soccer player cards! Open soccer balls with rewards and try to knock out a cooler soccer player. If you want someone in particular, go to the crafting tab and create the soccer player you want! Knock them all out!</string>
+    <string name="setting">SETTİNG</string>
+    <string name="choose_the_card">CHOOSE THE CARD</string>
+    <string name="informat_on">Informatıon</string>
+    <string name="confirm">Confirm</string>
+    <string name="choose_two">CHOOSE</string>
+</resources>

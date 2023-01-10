@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Footstone</string>
+    <string name="your_collections">AS SUAS COLECÇÕES</string>
+    <string name="tap_here">TAP AQUI</string>
+    <string name="choose">ESCOLHA</string>
+    <string name="start">INICIAR</string>
+    <string name="craft">CARACTERÍSTICAS</string>
+    <string name="show_m_ss_ng">MOSTRA DE DESAPARECIMENTO</string>
+    <string name="Information">Recolha os cartões dos jogadores de futebol! Abrir bolas de futebol com recompensas e tentar derrubar um jogador de futebol mais fixe. Se quiser alguém específico, vá para a aba de artesanato e crie o jogador de futebol que quiser! Derrube-as todas!</string>
+    <string name="setting">CONFIGURAÇÃO</string>
+    <string name="choose_the_card">ESCOLHA O CARTÃO</string>
+    <string name="informat_on">INFORMAÇÃO</string>
+    <string name="confirm">CONFIRMA</string>
+    <string name="choose_two">ESCOLHA</string>
+</resources>

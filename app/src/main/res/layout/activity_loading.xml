@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".LoadingActivity">
+
+
+    <ImageView
+        android:id="@+id/footstone"
+        android:layout_width="170dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/footstone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/card_fifteen"
+        android:layout_width="151dp"
+        android:layout_height="251dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/kartfifteen"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="-2dp" />
+
+    <ImageView
+        android:id="@+id/card_sixteen"
+        android:layout_width="140dp"
+        android:layout_height="192dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/kartsixteen"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.554"
+        tools:layout_editor_absoluteX="-2dp" />
+
+    <ImageView
+        android:id="@+id/card_fourteen"
+        android:layout_width="232dp"
+        android:layout_height="259dp"
+        android:layout_marginStart="64dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/kartfourteen"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.491" />
+
+    <ImageView
+        android:id="@+id/card_thirtten"
+        android:layout_width="177dp"
+        android:layout_height="242dp"
+        android:layout_marginStart="188dp"
+        android:layout_marginTop="156dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/kartthirtten"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/footstone" />
+
+    <ImageView
+        android:id="@+id/card_ten"
+        android:layout_width="173dp"
+        android:layout_height="241dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="24dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/kartten"
+        app:layout_constraintStart_toEndOf="@+id/card_sixteen"
+        app:layout_constraintTop_toTopOf="@+id/card_sixteen" />
+
+    <ImageView
+        android:id="@+id/card_eleven"
+        android:layout_width="201dp"
+        android:layout_height="274dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="40dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/karteleven"
+        app:layout_constraintStart_toStartOf="@+id/card_twelve"
+        app:layout_constraintTop_toTopOf="@+id/card_ten" />
+
+    <ImageView
+        android:id="@+id/card_twelve"
+        android:layout_width="177dp"
+        android:layout_height="242dp"
+        android:layout_marginTop="68dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/karttwelve"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/card_sixteen" />
+
+    <ImageView
+        android:id="@+id/card_nine"
+        android:layout_width="131dp"
+        android:layout_height="230dp"
+        android:rotation="6"
+        android:scaleType="centerCrop"
+        android:src="@drawable/kartnine"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/card_ten" />
+
+    <ImageView
+        android:id="@+id/card_egiht"
+        android:layout_width="173dp"
+        android:layout_height="241dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/kartegiht"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/card_seven" />
+
+    <ImageView
+        android:id="@+id/card_seven"
+        android:layout_width="280dp"
+        android:layout_height="273dp"
+        android:layout_marginBottom="4dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/kartseven"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/card_six"
+        android:layout_width="130dp"
+        android:layout_height="266dp"
+        android:layout_marginTop="48dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/kartsix"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/card_egiht" />
+
+    <ImageView
+        android:id="@+id/card_five"
+        android:layout_width="204dp"
+        android:layout_height="276dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="4dp"
+        android:rotation="9"
+        android:scaleType="centerCrop"
+        android:src="@drawable/kartfive"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/card_four"
+        android:layout_width="173dp"
+        android:layout_height="241dp"
+        android:layout_marginTop="104dp"
+        android:layout_marginEnd="48dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/kartfour"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/card_five" />
+
+    <ImageView
+        android:id="@+id/card_two"
+        android:layout_width="208dp"
+        android:layout_height="273dp"
+        android:layout_marginTop="44dp"
+        android:rotation="15"
+        android:rotationX="0"
+        android:scaleType="center"
+        android:src="@drawable/karttwo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.339"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/card_fourteen" />
+
+    <ImageView
+        android:id="@+id/card_one"
+        android:layout_width="177dp"
+        android:layout_height="242dp"
+        android:layout_marginTop="2dp"
+        android:scaleType="center"
+        android:src="@drawable/kartone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/card_ten" />
+
+    <ImageView
+        android:id="@+id/card_three"
+        android:layout_width="140dp"
+        android:layout_height="192dp"
+        android:layout_marginStart="1dp"
+        android:scaleType="center"
+        android:src="@drawable/kartthree"
+        app:layout_constraintStart_toEndOf="@+id/card_two"
+        app:layout_constraintTop_toBottomOf="@+id/card_nine" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
